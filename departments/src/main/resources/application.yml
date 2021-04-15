@@ -1,0 +1,8 @@
+server:
+  port: 9081
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  h2:
+    console:
+      enabled: true
