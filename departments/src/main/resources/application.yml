@@ -1,8 +1,10 @@
 server:
-  port: 9081
+  port: 9082
 spring:
   application:
-    name: DEPARTMENT-SERVICE
+    name: USER-SERVICE
+  zipkin:
+    base-url: http://127.0.0.1:9411/
   h2:
     console:
       enabled: true
