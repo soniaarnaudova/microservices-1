@@ -6,5 +6,5 @@ spring:
   zipkin:
     base-url: http://127.0.0.1:9411/
   h2:
-      console:
-        enabled: true
+    console:
+      enabled: true
