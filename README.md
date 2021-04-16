@@ -1,1 +1,1 @@
-Microservice-quick example.docx shows the whole process of creating a simple microservice architecture.
+Microservice-quick example.docx shows and explaines a simple microservice architecture.
