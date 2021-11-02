@@ -36,7 +36,7 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public ResponseTemplateVO getUserWithDepartment(@PathVariable("id") Long id) {
+    public ResponseTemplateVO getUserWithDepartment(Long id) {
         User user = userRepository.getUserById(id);
         log.info("User=" + user.toString());
         ResponseTemplateVO responseTemplateVO = new ResponseTemplateVO();
